@@ -1,0 +1,54 @@
+# Environment
+.env
+*.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+.venv/
+
+# Node
+node_modules/
+.npm
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training data (too large for git)
+training/datasets/
+training/models/
+*.pth
+*.zip
+
+# Large ONNX files from training
+training/*.onnx
+
+# Keep backend model files (required for deployment)
+# These are specifically allowed:
+# - backend/models/crop_disease_model.onnx
+# - backend/models/class_names.json  
+# - backend/models/inference_config.json
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Test files (development only)
+test_model.py

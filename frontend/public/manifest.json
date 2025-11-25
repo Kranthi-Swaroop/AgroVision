@@ -1,0 +1,43 @@
+{
+  "name": "AgroSentinel",
+  "short_name": "AgroSentinel",
+  "description": "AI-Powered Crop Disease Detection for Indian Farmers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#22c55e",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["agriculture", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Scan Crop",
+      "short_name": "Scan",
+      "description": "Scan a crop leaf for disease detection",
+      "url": "/scan"
+    },
+    {
+      "name": "Chat Assistant",
+      "short_name": "Chat",
+      "description": "Ask the AI assistant about crop care",
+      "url": "/chat"
+    },
+    {
+      "name": "View History",
+      "short_name": "History",
+      "description": "View your scan history",
+      "url": "/history"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

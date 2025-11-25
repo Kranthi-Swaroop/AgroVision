@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.vscode/
+*.log
+
+# Don't ignore the model files - they're needed for deployment
+# *.onnx is handled by root .gitignore with exceptions
